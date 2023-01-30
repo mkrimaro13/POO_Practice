@@ -15,8 +15,7 @@ public class CarX extends Car {
     }
     @Override
     public void printDataCar() {
-        // TODO Auto-generated method stub
         super.printDataCar();
-        System.out.println("Marca: " + brand + "Modelo: " + model);
+        System.out.println("Marca: " + brand + "\nModelo: " + model);
     }
 }

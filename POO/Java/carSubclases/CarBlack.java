@@ -10,8 +10,8 @@ public class CarBlack extends Car {
     Map<String,Map<String,String>> typeCarAccepted; // Se utiliza el Map porque se necesita: <Marca,<Modelo, Año>>
     ArrayList<String> seatsMaterial;
 
-    public CarBlack(String license, Account driver, Integer passenger, Map<String,Map<String,String>> typeCarAccepted, ArrayList<String> seatsMaterial) {
-        super(license, driver, passenger);
+    public CarBlack(String license, Account driver, Map<String,Map<String,String>> typeCarAccepted, ArrayList<String> seatsMaterial) {
+        super(license, driver);
         this.typeCarAccepted = typeCarAccepted;
         this.seatsMaterial = seatsMaterial;
 

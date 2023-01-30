@@ -16,6 +16,7 @@ if __name__ == "__main__":
     # car2.passenger = 2   
     # print(vars(car2))  # Imprime en como un diccionario/JSON
 
-    car = Car("ABC123", Account("Marco Osorio", "1234", "abc@mail.com", "1234pass"), 4)
+    car = Car("ABC123", Account("Marco Osorio", "1234", "abc@mail.com", "1234pass"))
+    car.setPassenger(4)
     print(vars(car))
     print(vars(car.driver))
